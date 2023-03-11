@@ -21,18 +21,10 @@ jobs:
 
     - name: Setup Python
       uses: actions/setup-python@v2
-
-    - name: Build MW-EZCV
-      run: |
-        python ./MW-EZCV/setup.py build
-        python ./MW-EZCV/setup.py install
-
-    - name: List
-      run: ls -R
         
     - name: Build HTML Files from MW-EZCV
       run: |
-        python ./build/lib/__main__.py build
+        python ./MW-EZCV/ezcv/__main__.py build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
