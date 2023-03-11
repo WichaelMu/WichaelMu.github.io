@@ -13,18 +13,18 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name:  Checkout MW-EZCV
+      uses: actions/checkout@v2
+      with:
+        repository: WichaelMu/MW-EZCV
+        path: 'MW-EZCV'
+
     - name: Setup Python
       uses: actions/setup-python@v2
-
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install --upgrade setuptools wheel
-        python -m pip install ezcv
         
     - name: Build HTML Files from MW-EZCV
       run: |
-        python -m ezcv build
+        python /MW-EZCV/build/lib/__main__.py build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
