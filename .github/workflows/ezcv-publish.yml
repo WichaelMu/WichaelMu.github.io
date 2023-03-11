@@ -23,7 +23,9 @@ jobs:
       uses: actions/setup-python@v2
 
     - name: Build MW-EZCV
-      run: python ./MW-EZCV/setup.py build
+      run: |
+        python ./MW-EZCV/setup.py build
+        python ./MW-EZCV/setup.py install
 
     - name: List
       run: ls -R
