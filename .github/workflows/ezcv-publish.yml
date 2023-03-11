@@ -25,6 +25,7 @@ jobs:
     - name: Build MW-EZCV
       run: |
         python ./MW-EZCV/setup.py build
+        python ./MW-EZCV/setup.py install
 
     - name: List
       run: ls -R
