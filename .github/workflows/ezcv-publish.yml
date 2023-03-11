@@ -16,6 +16,9 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2
 
+    - name: List
+      run: tree
+
     - name: Build HTML Files from MW-EZCV
       run: ezcv.exe build
 
