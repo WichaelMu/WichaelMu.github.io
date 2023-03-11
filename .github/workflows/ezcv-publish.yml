@@ -18,6 +18,7 @@ jobs:
 
     - name: Build HTML Files from MW-EZCV
       run: |
+        chmod 777 ./ezcv.exe
         git update-index --chmod=+x ./ezcv.exe
         ./ezcv.exe build
 
