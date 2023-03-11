@@ -8,30 +8,16 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name:  Checkout MW-EZCV
-      uses: actions/checkout@v2
-      with:
-        repository: WichaelMu/MW-EZCV
-        path: 'MW-EZCV'
-
     - name: Setup Python
       uses: actions/setup-python@v2
 
-    - name: Build MW-EZCV
-      run: |
-        python ./MW-EZCV/setup.py install
-
-    - name: List
-      run: ls -R
-        
     - name: Build HTML Files from MW-EZCV
-      run: |
-        python ./MW-EZCV/ezcv/cli.py build
+      run: ezcv.exe build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
