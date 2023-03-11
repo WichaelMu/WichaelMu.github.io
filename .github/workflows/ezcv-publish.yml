@@ -24,7 +24,7 @@ jobs:
         
     - name: Build HTML Files from MW-EZCV
       run: |
-        python ./MW-EZCV/ezcv/__main__.py build
+        python ./MW-EZCV/ezcv/cli.py build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
