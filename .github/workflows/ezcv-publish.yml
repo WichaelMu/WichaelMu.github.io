@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-python@v2
 
     - name: List
-      run: ls
+      run: ls -R
         
     - name: Build HTML Files from MW-EZCV
       run: |
