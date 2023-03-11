@@ -2,9 +2,18 @@
 name: Michael Wu
 theme: dimension
 resume: false
-biography: 4th Student at the University of Technology Sydney studying the Bachelor of Science in Games Development. I have experience with C# with .NET and the Unity Game Engine, as well as C++ with the Unreal Engine. I'm actually just writing more things here so that the entire space is filled with stuff.
+biography: | 
+    4th Student at the University of Technology Sydney studying the Bachelor of Science in Games Development.<br><br>
+    I have experience in:
+    <ul>
+      <li>C# with .NET and the Unity Game Engine.</li>
+      <li>C++ with the Unreal Engine.</li>
+      <li>GLSL & HLSL shader and post processing graphics programming with OpenGL & DirectX, respectively.</li>
+      <li>Physics simulation and programming with NVIDIA PhysX & Unreal Chaos.</li>
+      <li>I'm actually just writing more things here so that the entire space is filled with stuff.</li>
+    </ul>
 email: w.michael.u@gmail.com
-role: IT Operations Intern
+role: IT Operations (DevSecOps) Intern
 company: University of Technology Sydney
 social:
   github: WichaelMu
