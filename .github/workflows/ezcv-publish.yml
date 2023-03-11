@@ -17,10 +17,7 @@ jobs:
       uses: actions/setup-python@v2
 
     - name: Build HTML Files from MW-EZCV
-      run: |
-        chmod 777 ./ezcv.exe
-        git update-index --chmod=+x ./ezcv.exe
-        ./ezcv.exe build
+      run: python -m ezcv build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
