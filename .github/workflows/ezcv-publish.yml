@@ -20,7 +20,7 @@ jobs:
       run: tree /F
 
     - name: Build HTML Files from MW-EZCV
-      run: ezcv.exe build
+      run: .\ezcv.exe build
 
     - name: Deploy Docs
       uses: peaceiris/actions-gh-pages@v3
