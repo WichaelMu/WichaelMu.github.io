@@ -1299,7 +1299,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px rgb(255, 120, 179);
+			border: solid 1px rgb(255, 255, 255);
 			border-radius: 100%;
 		}
 
@@ -1309,7 +1309,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: rgb(255, 120, 179);
+			border-color: rgb(255, 255, 255);
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1348,13 +1348,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px rgb(255, 120, 179);
+			border: solid 1px rgb(255, 255, 255);
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px rgb(255, 120, 179);
+				border-left: solid 1px rgb(255, 255, 255);
 			}
 
 				#header nav ul li:first-child {
@@ -1389,7 +1389,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: rgb(255, 120, 179);
+			background: rgb(255, 255, 255);
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1486,7 +1486,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px rgb(255, 120, 179);
+						border-top: solid 1px rgb(255, 255, 255);
 					}
 
 						#header nav ul li:first-child {
