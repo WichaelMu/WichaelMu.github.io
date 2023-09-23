@@ -9,6 +9,7 @@ Developed with Unreal Engine 5.3, Racepace is a realistic racing game that takes
 This game is currently under active development.
 
 It features the Unreal suit of technologies:
+
 * Lumen Global Illumination.
 * Nanite Virtualised Geometry.
 * Chaos Physics.
