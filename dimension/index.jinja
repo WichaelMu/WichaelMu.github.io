@@ -108,7 +108,7 @@
 
 						<!-- Start of experience section -->
 							<article id="experience">
-								<h2 class="major" style="color:rgb(255, 120, 179)">Experience</h2>
+								<h2 class="major" style="color:white">Experience</h2>
 								{{ education_html | safe }}
 								{{ work_experience_html | safe }}
 								{{ volunteering_experience_html | safe }}
@@ -117,7 +117,7 @@
 
 						<!-- Start of projects section -->
 							<article id="projects">
-								<h2 class="major" style="color:rgb(255, 120, 179)">Projects</h2>
+								<h2 class="major" style="color:white">Projects</h2>
 								{{ projects_html | safe }}
 							</article>
 						<!-- End of Projects section -->
@@ -125,7 +125,7 @@
 						<!-- About -->
 						{% if config["biography"] or config["social"] or config["avatar"] %}
 							<article id="about">
-								<h2 class="major" style="color:rgb(255, 120, 179)">About Me</h2>
+								<h2 class="major" style="color:white">About Me</h2>
 								{% if config["avatar"] %}
 									{% if config["avatar"].startswith("http") or config["avatar"].startswith("images") %}
 									<span><img src="{{ config['avatar'] }}" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"></span>
